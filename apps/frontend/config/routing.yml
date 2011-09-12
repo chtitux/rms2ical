@@ -14,9 +14,3 @@ ical_nom:
   param: { module: ical, action: ical }
 
 
-default_index:
-  url:   /:module
-  param: { action: index }
-
-default:
-  url:   /:module/:action/*
