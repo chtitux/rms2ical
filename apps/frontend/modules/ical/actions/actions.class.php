@@ -43,6 +43,7 @@ class icalActions extends sfActions
     }
 
     $this->getResponse()->setContentType("text/calendar");
+    $this->getResponse()->setHttpHeader("X-rms2ical-gen", date("c"));
     $this->setLayout(false);
   }
 }
