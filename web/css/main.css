@@ -1,0 +1,14 @@
+img {
+  vertical-align:middle;
+}
+
+#main {
+  border:1px solid #aaa;
+  width:1024px;
+  margin: 50px auto;
+  padding: 50px;
+}
+
+.rappel {
+  font-size:80%;
+}
