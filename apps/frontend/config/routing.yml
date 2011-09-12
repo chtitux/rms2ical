@@ -8,6 +8,12 @@ homepage:
 
 # generic rules
 # please, remove them by adding more specific rules
+
+ical_nom:
+  url:   /ical/:nom.ics
+  param: { module: ical, action: ical }
+
+
 default_index:
   url:   /:module
   param: { action: index }
