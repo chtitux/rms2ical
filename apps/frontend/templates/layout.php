@@ -3,7 +3,11 @@
   <head>
     <?php include_http_metas() ?>
     <?php include_metas() ?>
-    <?php include_title() ?>
+<!--    <?php include_title() ?> -->
+    <title>Emplois du temps RMS vers iCal</title>
+        <meta name="description" content="Générateur des calendriers de Reims Management School vers le format iCal" /> 
+    <meta property="fb:admins" content="550350899" /> 
+
     <link rel="shortcut icon" href="/favicon.ico" />
     <?php include_stylesheets() ?>
     <?php include_javascripts() ?>
