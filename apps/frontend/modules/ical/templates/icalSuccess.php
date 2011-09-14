@@ -27,16 +27,16 @@ END:VTIMEZONE
 <?php foreach($liste_cours as $cours): ?>
 
 BEGIN:VEVENT
-SUMMARY:<?php echo $cours['title'] ?>
+SUMMARY:<?php echo ConvertJSON::JSONtoHTML($cours['title']) ?>
 
 DTSTART:<?php echo date('Ymd\THis', $cours['start']) ?>
 
 DURATION:PT<?php echo $cours['duration']['h'] ?>H<?php echo $cours['duration']['m'] ?>M0S
-LOCATION:<?php echo $cours['location'] ?>
+LOCATION:<?php echo ConvertJSON::JSONtoHTML($cours['location']) ?>
 
-DESCRIPTION:<?php echo $cours['title'] ?> <?php echo $cours['description'] ?>
+DESCRIPTION:<?php echo ConvertJSON::JSONtoHTML($cours['title']) ?> <?php echo ConvertJSON::JSONtoHTML($cours['description']) ?>
 
-UID:<?php echo $cours['uid'] ?>@rms2ical.pinade.org
+UID:<?php echo ConvertJSON::JSONtoHTML($cours['uid']) ?>@rms2ical.pinade.org
 END:VEVENT
 
 <?php endforeach ?>
