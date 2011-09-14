@@ -18,7 +18,7 @@ class icalActions extends sfActions
   public function executeIcal(sfWebRequest $request)
   {
     $this->forward404Unless($this->nom = $request->getParameter("nom"));
-    $json = json_decode(file_get_contents("http://rmsonline.fr/components/com_rmschedule/controllers/agenda.raw.php?start=1316383200000&end=1356476400000&type=cours&user=".$this->nom));
+    $json = json_decode(file_get_contents("http://rmsonline.fr/components/com_rmschedule/controllers/agenda.raw.php?start=1315605600000&end=1356476400000&type=cours&user=".$this->nom));
 
     $this->liste_cours = array();
     foreach($json as $cours)
