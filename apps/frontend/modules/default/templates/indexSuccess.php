@@ -1,3 +1,8 @@
+<div style="display:inline-block;float:right">
+<div class="g-plusone" data-size="medium" data-count="true" data-href="http://rms2ical.pinade.org/"></div>
+<iframe src="http://www.facebook.com/plugins/like.php?app_id=198451846877677&amp;href=http%3A%2F%2Frms2ical.pinade.org%2F&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;action=like&amp;colorscheme=dark&amp;font=verdana&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe>
+</div>
+
 <h1>Convertisseur RMS vers iCal</h1>
 Bonjour à toi et bienvenue sur le site de convertisseur des calendriers <a href="http://rmsonline.fr/">RMS</a> vers le format <a href="http://fr.wikipedia.org/wiki/ICalendar">iCal</a>.<br/>
 <br/>
